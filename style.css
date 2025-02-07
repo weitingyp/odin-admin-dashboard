@@ -17,6 +17,25 @@
 
 #sidebar{
     grid-area: sidebar;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 24px;
+    height: 100%;
+    box-sizing: border-box;
+
+    display: grid;
+    gap: 12px;
+    justify-content: stretch;
+}
+
+#sidebar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar li{
+    padding: 0.25rem 0;
 }
 
 #header{
