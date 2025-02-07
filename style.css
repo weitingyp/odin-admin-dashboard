@@ -1,3 +1,5 @@
+@import url(./normalize.css);
+
 :root{
     --background-color: #FBFFF1;
     --contrast-color: #3C3744;
