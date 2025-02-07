@@ -131,6 +131,14 @@ button#notification-btn{
     margin: 0.2rem 0;
 }
 
+.action-btn{
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 6px 24px;
+}
+
 #content{
     grid-area: content;
 }
