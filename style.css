@@ -79,6 +79,31 @@ body {
     margin: 0;
 }
 
+#header-nav-acc{
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: center;
+    align-items: center;
+    gap: 12px;
+}
+
+button#notification-btn{
+    border: none;
+    background-color: transparent;
+}
+
+#notif-btn{
+    fill: none;
+}
+
+#display-photo{
+    background-color: var(--background-color);
+}
+
+#username{
+    font-weight: bold;
+}
+
 #content{
     grid-area: content;
 }
