@@ -1,3 +1,11 @@
+:root{
+    --background-color: #FBFFF1;
+    --contrast-color: #3C3744;
+    --primary-color: #3066BE;
+    --secondary-color: #B4C5E4;
+    --accent-color: #090C9B;
+}
+
 body {
     color: red;
 }
