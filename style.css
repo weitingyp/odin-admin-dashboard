@@ -6,6 +6,23 @@
     --accent-color: #090C9B;
 }
 
-body {
-    color: red;
+#container{
+    display: grid;
+    grid-template-columns: 150px auto;
+    grid-template-rows: 100px auto;
+    grid-template-areas: 
+        "sidebar header"
+        "sidebar content";
+}
+
+#sidebar{
+    grid-area: sidebar;
+}
+
+#header{
+    grid-area: header;
+}
+
+#content{
+    grid-area: content;
 }
