@@ -104,6 +104,32 @@ button#notification-btn{
     font-weight: bold;
 }
 
+#header-actions{
+    margin: 12px 0px;
+    display: grid;
+    grid-template-columns: auto repeat(3, max-content);
+}
+
+#header-actions-greeting{
+    display: grid;
+    grid-template-columns: max-content auto;
+    gap: 12px;
+}
+
+#header-actions-greeting #greeting-display-photo img{
+    height: 1.5rem;
+    width: 1.5rem;
+    padding: 6px;
+    border: 2px solid var(--contrast-color);
+    border-radius: 20px;
+}
+
+#header-actions-greeting #greeting-text-username{
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 0.2rem 0;
+}
+
 #content{
     grid-area: content;
 }
