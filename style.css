@@ -51,6 +51,12 @@ body {
     padding: 12px 24px;
 }
 
+#header-nav{
+    margin: 12px 0px;
+    display: grid;
+    grid-template-columns: auto max-content;
+}
+
 #content{
     grid-area: content;
 }
