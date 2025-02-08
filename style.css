@@ -146,5 +146,25 @@ button#notification-btn{
 }
 
 #content{
+    display: grid;
     grid-area: content;
+    padding: 24px 12px;
+    grid-template-columns: min(350px) 300px;
+    grid-template-rows: repeat(2, 50%);
+    gap: 24px;
+}
+
+#projects-container{
+    grid-column-start: 1 / 2;
+    grid-row-start: 1 / 3;
+}
+
+#announcements-container{
+    grid-column: 2;
+    grid-row: 1 / 2;
+}
+
+#trending-container{
+    grid-column: 2;
+    grid-row: 2 / 3;
 }
