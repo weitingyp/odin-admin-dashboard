@@ -170,10 +170,12 @@ button#notification-btn{
 
     padding: 12px;
     display: grid;
-    grid-auto-rows: 75px;
+    grid-template-rows: 1.5rem repeat(auto-fit, 75px);
+    align-items: start;
 }
 
 .announcement{
+    margin: 0;
     padding: 12px 0px;
     border-bottom: 1px solid var(--contrast-color);
 }
@@ -196,4 +198,5 @@ button#notification-btn{
 h2.content-title{
     font-weight: bold;
     font-size: 1.25rem;
+    margin: 0;
 }
