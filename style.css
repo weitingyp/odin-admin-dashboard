@@ -149,7 +149,7 @@ button#notification-btn{
     display: grid;
     grid-area: content;
     padding: 24px 12px;
-    grid-template-columns: min(350px) 300px;
+    grid-template-columns: minmax(350px, auto) 300px;
     grid-template-rows: repeat(2, 50%);
     gap: 24px;
 }
