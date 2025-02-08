@@ -197,6 +197,36 @@ button#notification-btn{
     grid-row: 2 / 3;
 }
 
+.trending-user-container{
+    display: grid;
+    grid-template-columns: 65px auto;
+    grid-template-rows: repeat(2, 1fr);
+
+    align-items: center;
+}
+
+.trending-user-photo{
+    height: 50px;
+    width: 50px;
+    background-color: var(--accent-color);
+    border-radius: 25px;
+
+    grid-row: 1 / span 2;
+    grid-column: 1 / 2;
+}
+
+.trending-user-name::before{
+    content: '@';
+}
+
+.trending-user-name{
+    font-weight: bold;
+}
+
+.trending-user-bio{
+    font-weight: lighter;
+}
+
 h2.content-title{
     font-weight: bold;
     font-size: 1.25rem;
