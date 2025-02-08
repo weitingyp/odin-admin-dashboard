@@ -164,14 +164,16 @@ button#notification-btn{
     border-radius: 20px;
 }
 
-#announcements-container{
-    grid-column: 2;
-    grid-row: 1 / 2;
-
+#announcements-container, #trending-container{
     padding: 12px;
     display: grid;
     grid-template-rows: 1.5rem repeat(auto-fit, 75px);
     align-items: start;
+}
+
+#announcements-container{
+    grid-column: 2;
+    grid-row: 1 / 2;
 }
 
 .announcement{
