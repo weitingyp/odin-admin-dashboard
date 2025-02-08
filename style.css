@@ -168,3 +168,8 @@ button#notification-btn{
     grid-column: 2;
     grid-row: 2 / 3;
 }
+
+h2.content-title{
+    font-weight: bold;
+    font-size: 1.25rem;
+}
