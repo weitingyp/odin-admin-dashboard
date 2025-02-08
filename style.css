@@ -162,6 +162,27 @@ button#notification-btn{
 #announcements-container{
     grid-column: 2;
     grid-row: 1 / 2;
+
+    padding: 12px;
+    display: grid;
+    grid-auto-rows: 100px;
+
+    background-color: var(--secondary-color);
+}
+
+.announcement{
+    padding: 12px 0px;
+    border-bottom: 1px solid var(--contrast-color);
+}
+
+.announcement:last-child{
+    border-bottom: none;
+}
+
+.announcement-title{
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 6px;
 }
 
 #trending-container{
