@@ -203,6 +203,8 @@ button#notification-btn{
     grid-template-rows: repeat(2, 1fr);
 
     align-items: center;
+    overflow: scroll;
+    padding: 12px 0px;
 }
 
 .trending-user-photo{
